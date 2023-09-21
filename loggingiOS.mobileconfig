@@ -1,0 +1,296 @@
+0Ç+¡	*ÜHÜ˜†Ç+≤0Ç+Æ10	`ÜHe0Ç ‡	*ÜHÜ˜†Ç —Ç Õ<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>The FaceTime and Call Activity Logging Profile generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including device identifiers; contact names; phone numbers used in FaceTime and Messages, third-party CallKit apps, third-party CallKit extensions using Messages, and calls made with Siri; Apple IDs of the accounts on the device; and logs of incoming and outgoing calls and audio routes.  If you install this profile, it will automatically turn the logging on, and this data will be captured when you take a Sysdiagnose on this device. The data will not leave the device unless you initiate a Sysdiagnose and send the results. The profile will expire after 4 days. 
+
+You will be able to turn on and off logging at any time while the Profile is installed. To turn off logging on your iOS device, open Settings, tap General, tap "Profiles," tap "FaceTime and Call Activity Logging Profile," and tap "Delete Profile."
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy). You will be able to review the log files on your computer prior to sending them to Apple.
+
+Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright ¬© 2023, Apple Inc. All rights reserved.</string>
+	</dict>
+	<key>DurationUntilRemoval</key>
+	<integer>345600</integer>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Messages Extension Logging</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.system.logging.2e3e9fe3-3230-4c89-9fa0-bfb934072739</string>
+			<key>PayloadType</key>
+			<string>com.apple.system.logging</string>
+			<key>PayloadUUID</key>
+			<string>2e3e9fe3-3230-4c89-9fa0-bfb934072739</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Processes</key>
+			<dict/>
+			<key>Subsystems</key>
+			<dict>
+				<key>com.apple.AVConference</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.IDS</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+					</dict>
+					<key>IDSDelivery-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+					<key>MessageDelivery-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.Messages</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Info</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+					</dict>
+					<key>MessageDelivery-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.MessagesEvents</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Level</key>
+						<dict>
+							<key>Enable</key>
+							<string>Info</string>
+							<key>Persist</key>
+							<string>Info</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>com.apple.Registration</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+					</dict>
+					<key>FTMessageDelivery-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+					<key>IDSService-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+					<key>MessageDelivery-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+					<key>Sysdiagnose-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.Transport</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+					</dict>
+				</dict>
+				<key>com.apple.apsd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+					</dict>
+					<key>courier-oversized</key>
+					<dict>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.calldirectory</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.callkit</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.callservicesd</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.facetime</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.identitylookup</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.incallservice</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.intenthandler</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.messagefilter</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.mobilephone</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.telephonyui</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+				<key>com.apple.calls.telephonyutilities</key>
+				<dict>
+					<key>DEFAULT-OPTIONS</key>
+					<dict>
+						<key>Default-Privacy-Setting</key>
+						<string>Public</string>
+						<key>Enable-Oversize-Messages</key>
+						<true/>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Enables FaceTime and Call Activity Logging</string>
+	<key>PayloadDisplayName</key>
+	<string>FaceTime and Call Activity Logging</string>
+	<key>PayloadIdentifier</key>
+	<string>LoggingProfile</string>
+	<key>PayloadOrganization</key>
+	<string>Apple Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9554FDD2-1C81-49E3-9B3D-51BF89DF4DA5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>RemovalDate</key>
+	<date>2024-04-07T07:00:00Z</date>
+</dict>
+</plist>
+†Ç	s0Ç0Ç †π˚eëJòi0	*ÜHÜ˜ 0b10	UUS10U
+
+Apple Inc.1&0$UApple Certification Authority10UApple Root CA0130524174337Z280524174337Z0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ∏H°glVùÂp≈FÙØÖ„Ω:ﬁ°ÁŸ®6<b•|†G≥kÅ¨˛ÿtÊ5∞XOtÿ£˛Ì-Ó§s%Y‘ñ‹&œù'ãTú‹í±‡3bô»πØ6§jÅëßm››-ÃÅ}Ã)â£…ô™¢ÏŸgi<øD($±ƒ,5÷± %ÔPß€%∆√Oo[áæ*Òìß‘l^≤9.©·m;Æ9q?ÛπÙWù# OôÉ^üXæµ—Ï◊≤~¬e‚ÒÏ<¶¸n€V≥Ó
+≤K…¢Ò1ˆÆﬁ5l√Ä^Pcê∂∫m\¿„ü&ÉJﬁõ©∞Zo˚õkÅÏ›ﬂ2ﬁ¸.B¢ xZ◊ £Å¶0Å£0U˜æ|!`ë€={ÿ:2Åiﬂûlõ0Uˇ0ˇ0U#0Ä+–iGîv	˛Ùkç.@¶˜GM^0.U'0%0#†!†Ühttp://crl.apple.com/root.crl0Uˇ0
+*ÜHÜ˜cd 0	*ÜHÜ˜ Ç ïÕç˝§]ıÒ¿áIá›≥3ì≠Ñ–!ì„Ÿ÷⁄Ø	"Ç`<YBÒ-ì∂?ˇÙ*ÙÓjx¡.˚;LÆeCÀœ®Î=7êE/Jç®àk‚ö€Ôg∏Ò‰ÿÜqw”Ûâ‡Ø§Í(§?4ye6ÉTAq◊!‹PUEŒéº˜‹U–≥ (Q¨sQ¨yãní†7	a1/°—∫Î·\7¿ÿ—Á‡RB§îãˆ`"`|†¿?¡ïÖ’¬'c∞bVôÌ%ÙÃàôô‹T∑yËÅÖ8@¬πÌMb‘+ˆ)Òg°·çrwˆ†î+QàÑSÚÛí	ÑÛËø°&œ¸í7ª@0ÇS0Ç;†tYr–ıÈâ0	*ÜHÜ˜ 0Åå1@0>U7Apple Application Integration 2 Certification Authority1&0$UApple Certification Authority10U
+
+Apple Inc.10	UUS0230822163130Z260821163129Z0s1.0,U%AppleCare Profile Signing Certificate10UConfiguration Profiles10U
+
+Apple Inc.10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç œ©ˆÙZ˘›ùÖÍË'/¬§~⁄ÍºÿÏ¢§˛R;ñY“eÙ2‹ƒÎ∞KìÉ≠*…≤-∆ÙÃhxlπ·*÷¢svEÑßq˙Â|2G[‘!•È,IπÒΩIÿ´Ec8—W»%y~õÎõ.1«è÷⁄‚ÏÓ:,Fá8WŸH+†w¨]„Ì]€ç€+Ø^»¬V™˙¯ƒ—€¯=R|`AÔ‘›:«
+m%h ıdÙ®ı’ÑEÀàÛ˘w≤&PŒT"…ﬂùa&áÅKDn¢"á7!´÷§!~œÜZﬂMƒe‹`û
+3Õ†ñi>
+<†ø≤Ì±ı–!„C‚v)¡é£ £Çœ0ÇÀ0Uˇ0 0U#0Ä˜æ|!`ë€={ÿ:2Åiﬂûlõ0@+40200+0Ü$http://ocsp.apple.com/ocsp04-aaica020ÇU Ç0Ç0Å˛	*ÜHÜ˜cd0Å0(+http://www.apple.com/appleca0Å√+0Å∂Å≥Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0U%ˇ0	*ÜHÜ˜cd0UP∏åêçHÑqgÀˆä÷~ñ⁄0UˇÄ0	*ÜHÜ˜ Ç óG	ØYÚu|T˜[G`ggD,”D7GNã."îcˇÓ‡L*ÉQ*π¶%ß…0Ö–˘ÚhXnmI2wòŒ∆ÓÅJC^%˙ÿóµÀÈ|ÍpŸO⁄»∏M£dÂg∫V“VjñΩâ‹x¡*ÌkÍ®Ò;ÿÒK•€Rr*mw^’u˝M´ÖD˝ÅÇ¢;¬µ≈mgÀzzAª4ÏÍ±_'CìÁ+u-FƒÛ}ˇ[Wp=Õ˜ÉY;l¬mâ◊A_VO¢o*DëÇ6ﬂM©l ™i˜t}´j‹"RÍÈ◊à	°ödéW¸èÇùÙ&_ÊM≤˛ó0tÁ[S±‘F1Ç=0Ç9ÄP∏åêçHÑqgÀˆä÷~ñ⁄0	`ÜHe0	*ÜHÜ˜ Ç M‰¿yïAπdü’véÏ9ú—˙∑%îP#˛¸P¯„íPxïD|®`R^Á´ó5Ω}["qı/–¿á§1f¸Ö€q˜ﬂ,.vµ;@ıv®Wv±&®µÃ∆´√#i7¶ß§˝j∞ﬂÄé∑•P˙ÿ÷-óN–√⁄◊ÀL´ ∞Fª¿Í)≈>Hˇ¸≈ﬁ‹Ω84>≈Å≥:¸ÚÕ"ß.6.&Xq√sH˜æ,‚@ÏÜ‰YvEëπ$ıaÄπ+ÍÃ üÖ∏]ôKÎÌ/©r$∆1`Ræ≥cÃæ^mËÚcÒ»Ä Ûá?]
+h ‹ﬁ©4üÜÂ’k"ñtæ>tºv
